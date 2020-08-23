@@ -1,0 +1,29 @@
+.col {
+	background: $color-regular;
+	height: 264px;
+	flex: 0 0 264px;
+	border: 4px solid;
+	border-radius: 14px;
+	margin: 10px;
+	margin-top: 90px;
+}
+
+.purple-border {
+	background: $color-white;
+	border-color: $color-main-pink !important;
+}
+
+.purple {
+	background: $color-main-pink;
+	border-color: $color-white !important;
+}
+
+.regular {
+	border-color: $color-regular;
+	box-shadow: 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row.row-cols-1.row-cols-sm-2.row-cols-md-4 {
+	justify-content: center;
+	margin-bottom: 100px;
+}

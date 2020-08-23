@@ -1,0 +1,13 @@
+footer {
+	background: $color-regular;
+	padding: 10px;
+
+	.footer-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		color: grey;
+		margin: 0px 80px;
+	}
+}
